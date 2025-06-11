@@ -33,7 +33,7 @@ const Two = () =>{
                 <tbody>
                     {people.map((person, index) =>{
                         return(
-                            <tr key={index} className='text-center'>
+                            <tr key={index}>
                                 <td>{person.id}</td>
                                 <td>{person.name}</td>
                                 <td>{person.age}</td>
