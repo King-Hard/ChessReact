@@ -19,7 +19,6 @@ const Four = () =>{
 
     return(
         <>
-        
             <div>
                 <button onClick={handleClick} className="border rounded-lg p-3 bg-green-300 hover:bg-green-500">Click Me!</button>
                 <p>{click}</p>
@@ -42,15 +41,6 @@ const Four = () =>{
 
                 <p>{submit}</p>
             </div>
-        <div>
-            <div>
-                <div>
-                    <div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
         </>
     )
 
