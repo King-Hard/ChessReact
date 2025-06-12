@@ -8,7 +8,7 @@ import One from './Practice/1List&Keys/One'
 import Two from './Practice/2CondiRendering/Two'
 import Three from './Practice/3ConditionalRendering/Three'
 import Four from './Practice/4HandlingEvents/Four'
-import Five from './Practice/5StylingComponents/Five'
+import Five from './Practice/5MaterialUi/Five'
 
 const App = () =>{
   return(

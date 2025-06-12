@@ -1,4 +1,4 @@
-import {TextField, Button, Typography, AppBar, Toolbar} from "@mui/material"
+import {TextField, Button, Typography, AppBar, Toolbar, Alert} from "@mui/material"
 import SendIcon from "@mui/icons-material/Send"
 import { useState } from "react"
 
@@ -9,9 +9,21 @@ const Five = () =>{
         setPassword(`Password: ${event.target.elements.pass.value}`)
     }
 
+    const [notif, setNotif] = useState()
+    const handleNotif = () =>{
+        setNotif(<Alert variant="filled" severity="info">
+                    This is a filled error Alert.
+                </Alert>)
+    }
     return(
         <>
         
+            <button onClick={handleNotif} className="border rounded-lg p-3 bg-red-300 hover:bg-red-500">Delete</button>
+
+            <div>
+                {notif}
+            </div>
+
             <div className="m-5">
                 <form onSubmit={handleSubmit}>
                     <TextField name="pass" label="Password" variant="outlined" sx={{width: "300px"}}/>
@@ -28,8 +40,6 @@ const Five = () =>{
                         <Typography variant="h4">My App</Typography>
                     </Toolbar>
                 </AppBar>
-
-
             </div>
 
         </>
