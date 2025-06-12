@@ -1,4 +1,4 @@
-import {TextField, Button} from "@mui/material"
+import {TextField, Button, Typography, AppBar, Toolbar} from "@mui/material"
 import SendIcon from "@mui/icons-material/Send"
 import { useState } from "react"
 
@@ -20,6 +20,16 @@ const Five = () =>{
 
                     <p className="border rounded-lg p-3">{password}</p>
                 </form> 
+
+                <Typography variant="h1">Welcome!</Typography>
+
+                <AppBar position="static">
+                    <Toolbar>
+                        <Typography variant="h4">My App</Typography>
+                    </Toolbar>
+                </AppBar>
+
+
             </div>
 
         </>

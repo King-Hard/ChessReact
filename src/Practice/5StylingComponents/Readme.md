@@ -18,4 +18,4 @@ endIcon={<SendIcon />}
 
 <Button startIcon={<SendIcon />}> Send</Button>
 
-3, 
+3, Kung layout, position lang naman need natin na baguhin don sa material component na inimport natin is okay na yung sx={{p:2, m:2}} lang pero kung yung mismong desgin ng material component is need na natin ng sx={{root something, para mabago yung mismong design}}
