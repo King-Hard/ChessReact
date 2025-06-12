@@ -8,6 +8,7 @@ import One from './Practice/1List&Keys/One'
 import Two from './Practice/2CondiRendering/Two'
 import Three from './Practice/3ConditionalRendering/Three'
 import Four from './Practice/4HandlingEvents/Four'
+import Five from './Practice/5StylingComponents/Five'
 
 const App = () =>{
   return(
@@ -20,6 +21,7 @@ const App = () =>{
         <Route path='/Two' element={<Two />}/>
         <Route path='/Three' element={<Three />}/>
         <Route path='/Four' element={<Four />}/>
+        <Route path='/Five' element={<Five />}/>
       </Route>
       <Route path='*' element={<NotFound />} />
     </Routes>
