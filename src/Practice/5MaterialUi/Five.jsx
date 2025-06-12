@@ -11,7 +11,7 @@ const Five = () =>{
 
     const [notif, setNotif] = useState()
     const handleNotif = () =>{
-        setNotif(<Alert variant="filled" severity="info">
+        setNotif(<Alert variant="filled" severity="error">
                     This is a filled error Alert.
                 </Alert>)
     }
