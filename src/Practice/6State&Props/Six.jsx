@@ -59,7 +59,7 @@ const Six = () =>{
                 {checked && cities.map((city, index) => (
                     <ul key={index}>
                         <li>{city}</li>
-                    </ul>
+                    </ul> 
                 ))}
             </div>
 
