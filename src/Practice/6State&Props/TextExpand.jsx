@@ -8,7 +8,7 @@ const TextExpand = ({children, maxChars}) =>{
 
     return(
         <>
-            <p className="text-6xl font-medium">{text}</p>
+            <p className="text-2xl font-medium">{text}</p>
             <button className="border rounded-lg p-3" onClick={() => setShowText(!showText)}>{showText ? <div className="flex"><AiOutlineCaretUp/>Less</div> : <div className="flex"><AiOutlineCaretDown/>More</div>}</button>
         </>
     )

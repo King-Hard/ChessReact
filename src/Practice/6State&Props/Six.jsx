@@ -5,7 +5,7 @@ const Six = () =>{
         <>
         
             <TextExpand maxChars={23}>
-                Ang pogi pogi ko hahaha miss na miss ko na sya
+                Ang pogi pogi ko talaga, miss na miss ko na sya 😔
             </TextExpand>
         
         </>
