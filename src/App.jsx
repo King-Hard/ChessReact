@@ -10,7 +10,7 @@ import Three from './Practice/3ConditionalRendering/Three'
 import Four from './Practice/4HandlingEvents/Four'
 import Five from './Practice/5MaterialUi/Five'
 import Six from './Practice/6State&Props/Six'
-import Seven from './Practice/7Hooks/SevenComponent'
+import Seven from './Practice/7Hooks/Seven'
 
 const App = () =>{
   return(
