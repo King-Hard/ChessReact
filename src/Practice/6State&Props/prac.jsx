@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const prac = () =>{
+const Prac = () =>{
     const [count, setCount] = useState(0)
     const [message, setMessage] = useState("")
     const [cities, setCities] = useState(["Manila", "Cebu", "Pasig"])
@@ -71,4 +71,4 @@ const prac = () =>{
     )
 }
 
-export default prac
+export default Prac
