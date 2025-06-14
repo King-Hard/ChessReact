@@ -10,6 +10,7 @@ import Three from './Practice/3ConditionalRendering/Three'
 import Four from './Practice/4HandlingEvents/Four'
 import Five from './Practice/5MaterialUi/Five'
 import Six from './Practice/6State&Props/Six'
+import Seven from './Practice/7Hooks/SevenComponent'
 
 const App = () =>{
   return(
@@ -24,6 +25,7 @@ const App = () =>{
         <Route path='/Four' element={<Four />}/>
         <Route path='/Five' element={<Five />}/>
         <Route path='/Six' element={<Six />}/>
+        <Route path='/Seven' element={<Seven />}/>
       </Route>
       <Route path='*' element={<NotFound />} />
     </Routes>
