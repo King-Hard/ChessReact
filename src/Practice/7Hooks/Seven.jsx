@@ -1,11 +1,11 @@
+import {useRef, useState} from "react"
+
 const Seven = () =>{
     return(
         <>
-         
             <div>
-                Hello
+                HAHAHAHA
             </div>
-
         </>
     )
 }
