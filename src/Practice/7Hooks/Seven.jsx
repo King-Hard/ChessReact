@@ -1,4 +1,4 @@
-import {useRef, useState} from "react"
+import {useEffect, useState} from "react"
 
 const Seven = () =>{
     return(
