@@ -15,7 +15,22 @@ const handleFocus = () =>{
 
 Gaya ng sabi natin laging may ka-partner na .current yung useRef variable natin, then saka natin i-eexecute yung mangyayari sa element natin na yon using useRef.
 
-3, useEffect -
+3, useEffect - useEffect natin lagay lang natin sya sa baba ng const variable natin.
+useEffect(() =>{
+
+}, []) - the bracket is dependencyList natin
+
+Sa useEffect natin kada changes na nangyayari sa nilagay natin doon sa dependecyList na variable, is magru-run din yung changes na nilagay natin dito sa loob ng useEffects natin kumbga salitan sila kada change sa variable natin, magru-run din aga yung changes na inilagay natin sa loob ng useEffect natin.
+
+Kapag empty naman yung dependecyList natin is once lang mangyayari yung ginagawa nating change don sa loob ng useEffect natin.
+
+We have 2 ways of using useEffect 1st is yung no empty depedencyList, 2nd is yung meron laman.
+
+1st: Dito is kada changes na nangyayari sa variable na inilagay natin sa dependecyList is magru-run din yung useEffect natin kasunuran lang.
+2nd: Dito naman is empty yung dependecyList natin, ibig sabihin neto is once nya lang iru-run yung changes na ginawa natin sa loob ng useEffect natin.
+
+
+
 4, useContext -
 5, useReducer - 
 6, useCallback - 
