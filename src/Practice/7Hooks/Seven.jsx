@@ -3,7 +3,7 @@ const Seven = () =>{
         <>
          
             <div>
-                Heloo
+                Hello
             </div>
 
         </>
