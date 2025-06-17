@@ -11,7 +11,7 @@ import Four from './Practice/4HandlingEvents/Four'
 import Five from './Practice/5MaterialUi/Five'
 import Six from './Practice/6State&Props/Six'
 import Seven from './Practice/7Hooks/Seven'
-
+import Reducer from './Practice/7Hooks/Reducer'
 const App = () =>{
   return(
     <Routes>
@@ -26,6 +26,8 @@ const App = () =>{
         <Route path='/Five' element={<Five />}/>
         <Route path='/Six' element={<Six />}/>
         <Route path='/Seven' element={<Seven />}/>
+        <Route path='/Reducer' element={<Reducer />}/>
+
       </Route>
       <Route path='*' element={<NotFound />} />
     </Routes>

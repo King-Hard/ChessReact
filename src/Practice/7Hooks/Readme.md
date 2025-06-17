@@ -30,8 +30,24 @@ We have 2 ways of using useEffect 1st is yung no empty depedencyList, 2nd is yun
 2nd: Dito naman is empty yung dependecyList natin, ibig sabihin neto is once nya lang iru-run yung changes na ginawa natin sa loob ng useEffect natin.
 
 
-
 4, useContext -
-5, useReducer - 
+
+
+5, useReducer - Bali we have 3 const para gawin yung useReducer nato.
+1st: We need handle para sa initialState
+
+
+2nd: We need handle para sa Reducer
+
+
+3rd: We need handle para sa initialState handle and reducer handle natin
+example: 
+const App = () =>{
+     const [state, dispatch] 
+}
+
+
+
+
 6, useCallback - 
 7, useMemo -
