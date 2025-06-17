@@ -4,9 +4,11 @@ const Seven = () =>{
     
     
     return(
-        <>
-            <div>HAHAHAHA</div>
-        </>
+       <>
+            <div>
+
+            </div>
+       </>
     )
 }
 
