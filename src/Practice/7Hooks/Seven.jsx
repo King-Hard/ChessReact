@@ -4,7 +4,9 @@ const Seven = () =>{
     
     return(
        <>
-            
+            <div>
+                
+            </div>
        </>
     )
 }
