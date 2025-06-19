@@ -12,6 +12,9 @@ import Five from './Practice/5MaterialUi/Five'
 import Six from './Practice/6State&Props/Six'
 import Seven from './Practice/7Hooks/Seven'
 import Reducer from './Practice/7Hooks/Reducer'
+import Form from './Practice/8FormValidation/Form'
+import ForgotPass from './Practice/8FormValidation/ForgotPass'
+
 const App = () =>{
   return(
     <Routes>
@@ -27,7 +30,8 @@ const App = () =>{
         <Route path='/Six' element={<Six />}/>
         <Route path='/Seven' element={<Seven />}/>
         <Route path='/Reducer' element={<Reducer />}/>
-
+        <Route path='/Form' element={<Form />}/>
+        <Route path='/ForgotPass' element={<ForgotPass />}/>
       </Route>
       <Route path='*' element={<NotFound />} />
     </Routes>
