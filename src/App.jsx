@@ -14,6 +14,7 @@ import Seven from './Practice/7Hooks/Seven'
 import Reducer from './Practice/7Hooks/Reducer'
 import Form from './Practice/8FormValidation/Form'
 import ForgotPass from './Practice/8FormValidation/ForgotPass'
+import ToDo from './Practice/8FormValidation/ToDo'
 
 const App = () =>{
   return(
@@ -32,6 +33,7 @@ const App = () =>{
         <Route path='/Reducer' element={<Reducer />}/>
         <Route path='/Form' element={<Form />}/>
         <Route path='/ForgotPass' element={<ForgotPass />}/>
+        <Route path='/ToDo' element={<ToDo />}/>
       </Route>
       <Route path='*' element={<NotFound />} />
     </Routes>
